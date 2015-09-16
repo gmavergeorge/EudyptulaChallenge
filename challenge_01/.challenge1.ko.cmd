@@ -1,0 +1,1 @@
+cmd_/home/gmav/kernel/hello_world/challenge1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/gmav/kernel/hello_world/challenge1.ko /home/gmav/kernel/hello_world/challenge1.o /home/gmav/kernel/hello_world/challenge1.mod.o
